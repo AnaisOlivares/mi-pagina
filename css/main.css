@@ -66,7 +66,7 @@
   }
   
   h2 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     font-weight: 300;
   }
   
@@ -76,7 +76,7 @@
 
   
   .banner {
-    background-image: url("http://www.cladera.org/images/banner2.png");
+    background-image: url("https://www.delfocus.com.ar/wp-content/uploads/2016/06/delfocus_banner_04.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -93,14 +93,29 @@
       margin-bottom: 2px;
      
   }
-
+ .margin{
+    margin: 2em 0 2em 0;
+  
+  }
+  .marginMin{
+    margin: 0.5em 0 0.5em 0;
+  
+  }
+  .marginCero{
+      margin: 0;
+  }
+.title {
+    font-family: 'Indie Flower', cursive;
+}
   .tall {
     height: 80px;
     font-size: 1.25rem;  
-  }
-  .tall p{
     padding-top: 4%;
   }
+  .border {
+    border: 1px solid gray;
+  }
+ 
   /*Grillas*/
 
   .col-xs-1 {
