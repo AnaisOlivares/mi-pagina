@@ -61,7 +61,7 @@
   }
   
   h1 {
-    font-size: 6rem;
+    font-size: 22px;
     font-weight: 300;
   }
   
@@ -74,7 +74,9 @@
       text-align: center;
   }
 
-  
+  .right {
+    margin-left: 8%;
+  }
   .banner {
     background-image: url("https://www.delfocus.com.ar/wp-content/uploads/2016/06/delfocus_banner_04.jpg");
     background-repeat: no-repeat;
@@ -82,6 +84,12 @@
     background-position: center center;
   }
 
+  figcaption {
+      padding: 20px;
+    }
+  /*.first-part {
+    height: 88vh;
+  }*/
   .buton {
       background: #08f;
       width: 120px;
@@ -91,10 +99,11 @@
       border: none;
       font-size: 1rem;
       margin-bottom: 2px;
-     
   }
+
  .margin{
     margin: 2em 0 2em 0;
+    margin-left: 20px
   
   }
   .marginMin{
@@ -107,10 +116,14 @@
 .title {
     font-family: 'Indie Flower', cursive;
 }
-  .tall {
-    height: 80px;
-    font-size: 1.25rem;  
-    padding-top: 4%;
+
+img {
+  width: 300px;
+  height: 200px;
+}
+  footer {
+    font-size: 20px;  
+    padding: 20px;
   }
   .border {
     border: 1px solid gray;
@@ -132,6 +145,7 @@
   
   .col-xs-4 {
     width: 33.33333333%;
+    margin-left: 9%;
   }
   
   .col-xs-5 {
@@ -216,4 +230,71 @@
   
   .col-xs-offset-12 {
     margin-left: 100%;
+  }
+
+  @media (min-width: 768px) {
+    * {
+      box-sizing: border-box;
+    }
+   .main-hamburger {
+      display: none;
+    }
+    .none {
+      display: inline-block;
+      float: right;
+      text-decoration: none;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+      padding: 10px;
+    }
+    h1 {
+      padding: 10px;
+    }
+    .banner {
+      padding: 10rem 0;
+    }
+    .first-div {
+      width: 58.33333333%;
+      float: left;
+    }
+    .text-rock {
+      float: left;
+    }
+
+    .border {
+      width: 29.991%;
+      float: left;
+      height: 33.33333333%;
+    }
+
+    footer {
+      clear: both;
+      padding: 20px;
+    }
+
+    .first-part {
+      clear: both;
+      /*height: 60vh;*/
+      float: left;
+    }
+
+    .contact {
+      width: 91.66666667%;
+    }
+    .right {
+      width: 25%;
+      float: left;
+      padding: 30px;
+      margin-left: 3%;
+    }
+    figcaption {
+      padding: 20px;
+    }
+    .hola {
+      width: 300px;
+      height: 517px;
+    }
+
   }
