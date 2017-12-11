@@ -1,300 +1,319 @@
 /* menú hamburguesa */
+
 .main-hamburger {
-    position: absolute;
-    top: 25px;
-    right: 28px;
-    height: 2px;
-    width: 24px;
-    background: #d0d0d0;
-  }
-  
-  .main-hamburger::before, .main-hamburger::after {
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 24px;
-    display: block;
-    background: #d0d0d0;
-  }
-  
-  .main-hamburger::before {
-    top: -8px;
-  }
-  
-  .main-hamburger::after {
-    top: 8px;
-  }
-  /* fin de menú hamburguesa */
-  
-  * {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-  }
-  
-  .bg-reverse {
-    background-color: #383e42;
-    color: #ffffff;
-  }
-  
-  a {
-    color: inherit;
-    font-size: inherit;
-    text-decoration: none;
-  }
-  
-  nav {
-    padding: 14px;
-    overflow: hidden;
-  }
-  
-  .nav-left {
-    font-size: 1.25rem;
-    float: left;
-  }
-  
-  .nav-right {
-    float: right;
-  }
-  
-  .none {
-    display: none;
-  }
-  
-  h1 {
-    font-size: 22px;
-    font-weight: 300;
-  }
-  
-  h2 {
-    font-size: 2rem;
-    font-weight: 300;
-  }
-  
-  .textCenter {
-      text-align: center;
-  }
+  position: absolute;
+  top: 25px;
+  right: 28px;
+  height: 2px;
+  width: 24px;
+  background: #d0d0d0;
+}
 
-  .right {
-    margin-left: 8%;
-  }
-  .banner {
-    background-image: url("https://www.delfocus.com.ar/wp-content/uploads/2016/06/delfocus_banner_04.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-  }
+.main-hamburger::before, .main-hamburger::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 24px;
+  display: block;
+  background: #d0d0d0;
+}
 
-  figcaption {
-      padding: 20px;
-    }
-  /*.first-part {
+.main-hamburger::before {
+  top: -8px;
+}
+
+.main-hamburger::after {
+  top: 8px;
+}
+
+/* fin de menú hamburguesa */
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.bg-reverse {
+  background-color: #18bc9c;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #f3fc94;
+}
+
+nav {
+  padding: 14px;
+  overflow: hidden;
+}
+
+.nav-left {
+  font-size: 1.25rem;
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.right {
+  margin-left: 8%;
+}
+
+.banner {
+  background-image: url("https://www.delfocus.com.ar/wp-content/uploads/2016/06/delfocus_banner_04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+figcaption {
+  padding: 20px;
+}
+
+/*.first-part {
     height: 88vh;
   }*/
-  .buton {
-      background: #08f;
-      width: 120px;
-      height: 40px;
-      border-radius: 7%;
-      color: white;
-      border: none;
-      font-size: 1rem;
-      margin-bottom: 2px;
-  }
 
- .margin{
-    margin: 2em 0 2em 0;
-    margin-left: 20px
-  
-  }
-  .marginMin{
-    margin: 0.5em 0 0.5em 0;
-  
-  }
-  .marginCero{
-      margin: 0;
-  }
+.buton {
+  background: purple;
+  width: 120px;
+  height: 40px;
+  border-radius: 7%;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+
+.hola {
+  border-radius: 8px;
+}
+
+.margin {
+  margin: 2em 0 2em 0;
+  margin-left: 20px
+}
+
+.marginMin {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.marginCero {
+  margin: 0;
+}
+
 .title {
-    font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
+  color: white;
 }
 
 img {
   width: 300px;
   height: 200px;
 }
-  footer {
-    font-size: 20px;  
-    padding: 20px;
+
+footer {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.border {
+  border: 1px solid gray;
+  background-color: #f3fc94;
+}
+
+/*Grillas*/
+
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+.col-xs-2 {
+  width: 16.66666667%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-4 {
+  width: 33.33333333%;
+  margin-left: 9%;
+}
+
+.col-xs-5 {
+  width: 41.66666667%;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-7 {
+  width: 58.33333333%;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+.col-xs-9 {
+  width: 75%;
+}
+
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+.col-xs-11 {
+  width: 91.66666667%;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+  .main-hamburger {
+    display: none;
+  }
+  .none {
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+    padding: 10px;
+  }
+  h1 {
+    padding: 10px;
+  }
+  .banner {
+    padding: 10rem 0;
+  }
+  .first-div {
+    width: 58.33333333%;
+    float: left;
+  }
+  .text-rock {
+    float: left;
   }
   .border {
-    border: 1px solid gray;
+    width: 29.991%;
+    float: left;
+    height: 33.33333333%;
   }
- 
-  /*Grillas*/
-
-  .col-xs-1 {
-    width: 8.33333333%;
+  footer {
+    clear: both;
+    padding: 20px;
   }
-  
-  .col-xs-2 {
-    width: 16.66666667%;
+  .bg-reverse {
+    font-size: 18px;
   }
-  
-  .col-xs-3 {
-    width: 25%;
+  .first-part {
+    clear: both;
+    /*height: 60vh;*/
+    float: left;
   }
-  
-  .col-xs-4 {
-    width: 33.33333333%;
-    margin-left: 9%;
-  }
-  
-  .col-xs-5 {
-    width: 41.66666667%;
-  }
-  
-  .col-xs-6 {
-    width: 50%;
-  }
-  
-  .col-xs-7 {
-    width: 58.33333333%;
-  }
-  
-  .col-xs-8 {
-    width: 66.66666667%;
-  }
-  
-  .col-xs-9 {
-    width: 75%;
-  }
-  
-  .col-xs-10 {
-    width: 83.33333333%;
-  }
-  
-  .col-xs-11 {
+  .contact {
     width: 91.66666667%;
   }
-  
-  .col-xs-12 {
-    width: 100%;
+  .right {
+    width: 25%;
+    float: left;
+    padding: 30px;
+    margin-left: 3%;
   }
-  
-  .col-xs-offset-0 {
-    margin-left: 0%;
+  figcaption {
+    padding: 20px;
   }
-  
-  .col-xs-offset-1 {
-    margin-left: 8.33333333%;
+  .hola {
+    border-radius: 8px;
+    width: 300px;
+    height: 517px;
   }
-  
-  .col-xs-offset-2 {
-    margin-left: 16.66666667%;
-  }
-  
-  .col-xs-offset-3 {
-    margin-left: 25%;
-  }
-  
-  .col-xs-offset-4 {
-    margin-left: 33.33333333%;
-  }
-  
-  .col-xs-offset-5 {
-    margin-left: 41.66666667%;
-  }
-  
-  .col-xs-offset-6 {
-    margin-left: 50%;
-  }
-  
-  .col-xs-offset-7 {
-    margin-left: 58.33333333%;
-  }
-  
-  .col-xs-offset-8 {
-    margin-left: 66.66666667%;
-  }
-  
-  .col-xs-offset-9 {
-    margin-left: 75%;
-  }
-  
-  .col-xs-offset-10 {
-    margin-left: 83.33333333%;
-  }
-  
-  .col-xs-offset-11 {
-    margin-left: 91.66666667%;
-  }
-  
-  .col-xs-offset-12 {
-    margin-left: 100%;
-  }
-
-  @media (min-width: 768px) {
-    * {
-      box-sizing: border-box;
-    }
-   .main-hamburger {
-      display: none;
-    }
-    .none {
-      display: inline-block;
-      float: right;
-      text-decoration: none;
-      list-style: none;
-    }
-    li {
-      display: inline-block;
-      padding: 10px;
-    }
-    h1 {
-      padding: 10px;
-    }
-    .banner {
-      padding: 10rem 0;
-    }
-    .first-div {
-      width: 58.33333333%;
-      float: left;
-    }
-    .text-rock {
-      float: left;
-    }
-
-    .border {
-      width: 29.991%;
-      float: left;
-      height: 33.33333333%;
-    }
-
-    footer {
-      clear: both;
-      padding: 20px;
-    }
-
-    .first-part {
-      clear: both;
-      /*height: 60vh;*/
-      float: left;
-    }
-
-    .contact {
-      width: 91.66666667%;
-    }
-    .right {
-      width: 25%;
-      float: left;
-      padding: 30px;
-      margin-left: 3%;
-    }
-    figcaption {
-      padding: 20px;
-    }
-    .hola {
-      width: 300px;
-      height: 517px;
-    }
-
-  }
+}
